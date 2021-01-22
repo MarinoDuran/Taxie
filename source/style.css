@@ -1,0 +1,156 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  border-radius: 10px;
+  padding-bottom: 25px;
+
+font-size: small;
+    /*
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+    background-color: white;
+    border: 2px solid #5d9047;
+    color: #5d9047;
+    */
+	
+}
+
+#example_output {
+  font-size: 2000%;
+}
+#calculator{
+	width: auto;
+	height: auto;
+  background-color: #eaedef;
+  margin-top: 25px;
+  width: 100%;
+  align-items: left;
+	top: 5px;
+	position: relative;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#milesPerYear{
+  padding-top: 20px;
+  text-align: left;
+  font-size:.9rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#milesPerGallon {
+  text-align: center;
+}
+
+#driverCost {
+  background-color: black;
+  color: #65a34a;
+  font-size: 400%;
+}
+
+#countup {
+  background-color: black;
+  color: #65a34a;
+  font-size: 400%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.centeredSlide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.slidecontainerQ0 {
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .slidecontainerQ1 {
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .slidecontainerQ2 {
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .slidecontainerQ3 {
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .slidecontainerQ4 {
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  
+.slider {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 10px;
+    border-radius: 5px;
+    /* background: #d3d3d3;*/
+    background: #000000;
+    outline: none;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+.slider:hover {
+    opacity: 1;
+  }
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #5d9047;
+    cursor: pointer;
+  }
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+  #myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #4CAF50;
+  }

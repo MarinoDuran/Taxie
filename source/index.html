@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+		
+		<title>Driver Benefit Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div><img src="taxie+logo+cropped.png" class="center"></div>
+
+
+        <div id="calculator"> 
+            <div class="centered">
+
+                <div id="milesPerYear">
+                    <h2>How many miles do you drive per year? <h3>
+                        <span id="slider00"></span> Miles Per Year </h3></h2>
+                
+                <div class="slidecontainerQ0">
+                    <input type="range" min="10" max="50000" value="50000" class="slider" id="Range00" step="10">
+                </div>
+            </div>
+
+
+            <div id="carPayment">
+                <h2>What is your current monthly car payment? (Loan, Lease or Rental)<h3>
+                    <span id="slider01"></span> Dollars per Month </h3></h2>
+                    
+
+                <div class="slidecontainerQ1">
+                    <input type="range" min="1" max="1500" value="400" class="slider" id="Range01">
+                </div>  
+            </div>
+
+
+            <div id="insurancePayment">
+                <h2>What is your current monthly insurance payment?<h3>
+                    <span id="slider02"></span> Dollars per Month </h3></h2>
+        
+                <div class="slidecontainerQ2">
+                    <input type="range" min="1" max="1000" value="200" class="slider" id="Range02">
+                </div>         
+            </div>
+
+
+            <div id="gasPrice">
+                <div class="right">
+                    <div class="centered">
+
+                <h2>Price of gas in your city? ($/Gal)<h3>
+                    <span id="slider03"></span> Dollars per Gallon </h3></h2>
+
+                <div class="slidecontainerQ3">
+                    <input type="range" min="0" max="8" value="3.00" class="slider" id="Range03" step=".1">
+                    
+                    
+                </div>              
+            </div>
+        </div>
+    </div>
+
+
+            <div id="milesPerGallon">
+                <h2>How many miles per gallon does your vehicle get?<h3>
+                    <p><span id="slider04"></span> Miles Per Gallon (MPG) </p>
+
+                <div class="slidecontainerQ4">
+                    <input type="range" min="1" max="50" value="25" class="slider" id="Range04">
+                  </div>    
+            </div>
+           
+                <h1 id="driverCost" class="countup"> </h1> <p>Current Driver Cost</p>
+         
+            
+                
+                <div id="myProgress">
+                    <h1>Annual Driver Benefit with Taxie</h1>
+                  <div id="myBar"></div>
+                </div>
+                <div><h1>$2,800.00</h1></div>
+            
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js">
+</script>
+
+
+<noscript>Sorry, your browser does not support JavaScript! <br>Please enable scripting in order to use the Taxie Driver Savings Calculator.</noscript>
+</html>
