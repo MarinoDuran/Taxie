@@ -52,12 +52,23 @@ font-size: small;
   text-align: center;
 }
 
-#driverCost {
+
+#driverCostBox {
+  column-count: 2;
   background-color: black;
   color: #65a34a;
-  font-size: 400%;
+  font-size: 300%;
+}
+.row {
+  display: flex;
 }
 
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  
+ /* Should be removed. Only for demonstration */
+}
 #countup {
   background-color: black;
   color: #65a34a;
